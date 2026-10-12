@@ -173,9 +173,10 @@ h1 span, h2 span { color: var(--accent); }
 
 /* زر الواتساب العائم باللون الأخضر الأصلي */
 .whatsapp-fab { 
-  position:fixed; 
-  left:20px; 
-  bottom:20px; 
+  position: fixed; 
+  right: 20px !important; 
+  left: auto !important;
+  bottom: 20px !important;
   width:48px; 
   height:48px; 
   display:grid; 
